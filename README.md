@@ -6,6 +6,7 @@
  1. Ensure that Python, Flask, SQLAlchemy, and ChatterBot are installed (either manually, or run `pip install -r requirements.txt`).
  2. Run *app.py* with `python app.py`.
  3. The demo will be live at [http://localhost:5000/](http://localhost:5000/)
+ ![edu1](https://user-images.githubusercontent.com/21276619/85367986-f7a03a80-b547-11ea-8b59-63701ee6e56e.png)
 
 To develop an automatic and efficient web based edubot system which is a valuable tool for improving ELearning and Education. Here we employ natural language processing technology to understand
 questions given in natural language text as English. Our system will detect the type of question, based
@@ -17,4 +18,5 @@ from each and every corner of the globe, especially those who are not able to ac
 learning. This system is convenient and time saving for the students who can get correct answers to
 their questions as well as tutors who need not waste time to reply to each and every question
 individually. It is cost effective too
+
 
