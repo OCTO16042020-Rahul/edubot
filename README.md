@@ -7,23 +7,14 @@
  2. Run *app.py* with `python app.py`.
  3. The demo will be live at [http://localhost:5000/](http://localhost:5000/)
 
-## How do I deploy this to a web server?
-If you do not have a dedicated server, I highly recommend using [PythonAnywhere](https://www.pythonanywhere.com/), [AWS](https://aws.amazon.com/getting-started/projects/deploy-python-application/) or [Heroku](https://devcenter.heroku.com/articles/getting-started-with-python#introduction) to host your application.
+To develop an automatic and efficient web based edubot system which is a valuable tool for improving ELearning and Education. Here we employ natural language processing technology to understand
+questions given in natural language text as English. Our system will detect the type of question, based
+on which proper technique for extracting the answer is used. The system returns only blocks or phrases
+of data containing the answer rather than full documents. Using this system, the student or learner can
+extract the exact answer to a particular question rather than obtaining numerous results which are
+irrelevant. The aim of developing this system is to provide E-learning facility to students or learners
+from each and every corner of the globe, especially those who are not able to access classroom
+learning. This system is convenient and time saving for the students who can get correct answers to
+their questions as well as tutors who need not waste time to reply to each and every question
+individually. It is cost effective too
 
-### Deploying on Heroku
-If you are deploying on Heroku, you will have to change the database adapter from `chatterbot.storage.SQLStorageAdapter` to `chatterbot.storage.MongoDatabaseAdapter` since SQLite3 isn't supported. To do this simply change the following line:
-
-`english_bot = ChatBot("English Bot", storage_adapter="chatterbot.storage.SQLStorageAdapter")`
-
-... to use the MongoDB adapter:
-
-```
-english_bot = ChatBot("English Bot", 
-                     storage_adapter = "chatterbot.storage.MongoDatabaseAdapter",
-                     database = mongodb_name,
-                     database_uri = mongodb_uri)
-```
-... where `mongodb_name` is the name of the database you wish to connect to and `mongodb_uri` is the URI of a remote instance of MongoDB.
-
-## License
-This source is free to use, but ChatterBot does have a license which still applies and can be found on the [LICENSE](https://github.com/gunthercox/ChatterBot/blob/master/LICENSE) page.
