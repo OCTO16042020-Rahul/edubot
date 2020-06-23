@@ -1,0 +1,472 @@
+{"intents": [
+        
+        {"tag": "nlp",
+         "patterns": ["what is Nlp", "Nlp", "Nlp", "Definition of nlp", "Define Nlp"],
+         "responses": ["Natural Language Processing or NLP is an automated way to understand or analyze the natural languages and extract required information from such data by applying machine learning Algorithms."],
+         "context_set": ""
+        },
+        {"tag": "components",
+         "patterns": ["List Some Components Of Nlp", "Components Of Nlp"],
+         "responses": ["Entity extraction:It involves segmenting a sentence to identify and extract entities, such as a person (real or fictional), organization, geographies, events, etc.\n Syntactic analysis:It refers to the proper ordering of words.\n Pragmatic analysis:Pragmatic Analysis is part of the process of extracting information from text."],
+         "context_set": ""
+        },
+        {"tag": "areasofnlp",
+         "patterns": ["List Some Areas Of Nlp", "areas of nlp", "what are the areas of nlp"],
+         "responses": ["Natural Language Processing can be used for Semantic Analysis, Automatic summarization, Text classification, Question Answering. Some real-life example of NLP is IOS Siri, the Google assistant, Amazon echo."],
+         "context_set": ""
+        },
+        {"tag": "nlpterminology",
+         "patterns": ["Define The Nlp Terminology", "Nlp Terminology"],
+         "responses": ["NLP Terminology is based on the following factors: Weights and Vectors:TF-IDF, length(TF-IDF, doc), Word Vectors, Google Word Vectors, Text Structure:Part-Of-Speech Tagging, Head of sentence, Named entities, Sentiment Analysis:Sentiment Dictionary, Sentiment Entities, Sentiment Features, Text Classification:Supervised Learning, Train Set, Dev(=Validation) Set, Test Set, Text Features, LDA, Machine Reading:Entity Extraction, Entity Linking,dbpedia, FRED (lib) / Pikes."],
+         "context_set": ""
+        },
+        {"tag": "pragmaticanalysis",
+         "patterns": ["What Is Pragmatic Analysis In Nlp", "Pragmatic Analysis In Nlp"],
+         "responses": ["It deals with outside word knowledge, which means knowledge that is external to the documents and/or queries. Pragmatics analysis that focuses on what was described as interpreted by what it actually meant, deriving the various aspects of language that require real-world knowledge."],
+         "context_set": ""
+        },
+        {"tag": "dependency",
+         "patterns": ["Explain Dependency Parsing In Nlp", "Dependency Parsing In Nlp"],
+         "responses": ["Dependency Parsing is also known as Syntactic Parsing. It is the task of recognizing a sentence and assigning a syntactic structure to it. The most widely used syntactic structure is the parse tree which can be generated using some parsing algorithms. These parse trees are useful in various applications like grammar checking or more importantly it plays a critical role in the semantic analysis stage."],
+         "context_set": ""
+        },
+        {"tag": "textmining",
+         "patterns": ["what is Text Mining", "Text Mining", "Text Mining definition","define Text Mining"],
+         "responses": ["Text mining (also referred to as text analytics) is an artificial intelligence (AI) technology that uses natural language processing (NLP) to transform the free (unstructured) text in documents and databases into normalized, structured data suitable for analysis or to drive machine learning (ML) algorithms."],
+         "context_set": ""
+        },
+        {"tag": "ArtificialIntelligence",
+         "patterns": ["what is Artificial Intelligence", "Artificial Intelligence", "Artificial Intelligence definition","define Artificial Intelligence"],
+         "responses": ["Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving."],
+         "context_set": ""
+        },
+        {"tag": "applications",
+         "patterns": ["what are the applications of nlp", "applications of nlp"],
+         "responses": ["1.Sentimental Analysis 2.Chatbot 3.Speech Recognition 4.Machine Translation 5.Spell Checking 6.Keyword Searching 7.Information extraction 8.Advertisement Matching"],
+         "context_set": ""
+        },
+        {"tag": "sentimentalanalysis",
+         "patterns": ["What is Sentimental Analysis", "Sentimental Analysis", "Sentimental Analysis definition", "Define Sentimental Analysis"],
+         "responses": ["Sentiment Analysis (also known as opinion mining or emotion AI) is a sub-field of NLP that tries to identify and extract opinions within a given text across blogs, reviews, social media, forums, news etc."],
+         "context_set": ""
+        },
+        {"tag": "Chatbot",
+         "patterns": ["what is Chatbot", "Chatbot", "Chatbot definition", "define Chatbot"],
+         "responses": ["A chatbot is an artificial intelligence (AI) software that can simulate a conversation (or a chat) with a user in natural language through messaging applications, websites, mobile apps or through the telephone."],
+         "context_set": ""
+        },
+        {"tag": "SpeechRecognition",
+         "patterns": ["what is Speech Recognition", "Speech Recognition", "Speech Recognition definition", "define Speech Recognition"],
+         "responses": ["Speech recognition is an interdisciplinary subfield of computational linguistics that develops methodologies and technologies that enables the recognition and translation of spoken language into text by computers. It is also known as automatic speech recognition, computer speech recognition or speech to text. "],
+         "context_set": ""
+        },
+        {"tag": "MachineTranslation",
+         "patterns": ["what is Machine Translation", "Machine Translation", "Machine Translation definition", "define Machine Translation"],
+         "responses": ["Machine Translation (MT) is the task of automatically converting one natural language into another, preserving the meaning of the input text, and producing fluent text in the output language."],
+         "context_set": ""
+        },
+        {"tag": "SpellChecking",
+         "patterns": ["what is Spell Checking", "Spell Checking", "Spell Checking definition","define Spell Checking"],
+         "responses": ["A spell checker is a software tool that identifies and corrects any spelling mistakes in a text. Most text editors let users check if their text contains spelling mistakes. One of the most vivid examples is the Grammarly app. It is an online grammar checker that scans your text for all types of mistakes, from typos to sentence structure problems and beyond."],
+         "context_set": ""
+        },
+        {"tag": "KeywordSearching",
+         "patterns": ["what is Keyword Searching", "Keyword Searching", "Keyword Searching definition","define Keyword Searching"],
+         "responses": ["Keyword search is a practice search engine optimization (SEO) professionals use to find and research alternative search terms that people enter into search engines while looking for a similar subject. Search engine optimization professionals research additional keywords, which they use to achieve better rankings in search engines. "],
+         "context_set": ""
+        },
+        {"tag": "InformationExtraction",
+         "patterns": ["what is Information Extraction", "Information Extraction", "Information Extraction definition","define Information Extraction"],
+         "responses": ["Information extraction is the task of automatically extracting structured information from unstructured and/or semi-structured machine-readable documents. In most of the cases this activity concerns processing human language texts by means of natural language processing. "],
+         "context_set": ""
+        },
+        {"tag": "AdvertisementMatching",
+         "patterns": ["what is Advertisement Matching", "Advertisement Matching", "Advertisement Matching definition","define Advertisement Matching"],
+         "responses": [" These are applications that have been used abundantly in industry: from search (written and spoken) to online advertisement matching; from automated/assisted translation to sentiment analysis for marketing or finance/trading; and from speech recognition to chatbots/dialog agents (automating customer support, controlling devices, ordering goods)."],
+         "context_set": ""
+        },
+        {"tag": "steps",
+         "patterns": ["what are the steps of nlp", "steps of nlp", "nlp steps"],
+         "responses": ["1.Tokenization 2.Stemming 3.Lemmatization 4.POS Tags 5.Named Entity Recognition 6.Chunking"],
+         "context_set": ""
+        },
+        {"tag": "Tokenization",
+         "patterns": ["what is Tokenization", " Tokenization", " Tokenization definition", "define Tokenization"],
+         "responses": ["Tokenization is a very common task in NLP, it is basically a task of chopping a character into pieces, called as token, and throwing away the certain characters at the same time, like punctuation."],
+         "context_set": ""
+        },
+		{"tag": "Stemming",
+			 "patterns": ["what is Stemming", " Stemming", " Stemming definition", "define  Stemming"],
+			 "responses": ["Stemming is basically removing the suffix from a word and reduce it to its root word. For example: “Flying” is a word and its suffix is “ing”, if we remove “ing” from “Flying” then we will get base word or root word which is “Fly”. We uses these suffix to create a new word from original stem word. "],
+			 "context_set": ""
+		},
+		{"tag": "Lemmatization",
+			 "patterns": ["what is Lemmatization", " Lemmatization", " Lemmatization definition", "define Lemmatization"],
+			 "responses": ["Lemmatization usually refers to doing things properly with the use of a vocabulary and morphological analysis of words, normally aiming to remove inflectional endings only and to return the base or dictionary form of a word, which is known as the lemma."],
+			 "context_set": ""
+			},
+		{"tag": " POSTags",
+			 "patterns": ["what is POS Tags", "POS Tags", " POS Tags definition","define POS Tags"],
+			 "responses": [" part-of-speech tagging (POS tagging or PoS tagging or POST), also called grammatical tagging or word-category disambiguation, is the process of marking up a word in a text (corpus) as corresponding to a particular part of speech, based on both its definition and its context i.e., its relationship with adjacent and related words in a phrase, sentence, or paragraph. A simplified form of this is commonly taught to school-age children, in the identification of words as nouns, verbs, adjectives, adverbs, etc."],
+			 "context_set": ""
+			},
+		{"tag": "NamedEntityRecognition",
+			 "patterns": ["what is Named Entity Recognition", "Named Entity Recognition", "Named Entity Recognition definition","define Named Entity Recognition"],
+			 "responses": ["Named entity recognition is a subtask of information extraction that seeks to locate and classify named entity mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc."],
+			 "context_set": ""
+			},
+		{"tag": "Chunking",
+			 "patterns": ["what is Gaining Access", "Gaining Access", "Gaining Access","define Gaining Access"],
+			 "responses": ["In this process, the vulnerability is located and you attempt to exploit it in order to enter into the system. The primary tool that is used in this processis Metasploit."],
+			 "context_set": ""
+			},
+		{"tag": "MaintainingAccess",
+			 "patterns": ["what is Maintaining Access", "Maintaining Access", "Maintaining Access definition","define Maintaining Access"],
+			 "responses": ["It is the process where the hacker has already gained access into a system.After gaining access, the hacker installs some backdoors in order to enter into the system when he needs access in this owned system in future.Metasploit is the preferred tool in this process."],
+			 "context_set": ""
+			},
+		{"tag": "ClearingTracks",
+			 "patterns": ["what is Clearing Tracks", "Clearing Tracks", "Clearing Tracks definition","define Clearing Tracks"],
+			 "responses": ["This process is actually an unethical activity. It has to do with the deletion of logs of all the activities that take place during the hacking process"],
+			 "context_set": ""
+			},
+		{"tag": "Reporting",
+			 "patterns": ["what is Reporting", "Reporting", "Reporting definition","define Reporting"],
+			 "responses": ["Reporting is the last step of finishing the ethical hacking process. Here the Ethical Hacker compiles a report with his findings and the job that was done such as the tools used, the success rate, vulnerabilities found"],
+			 "context_set": ""
+			},
+		{"tag": "ReconnaissanceTools",
+			 "patterns": ["what is Reconnaissance Tools", "Reconnaissance Tools", "Reconnaissance Tools definition","define Reconnaissance Tools"],
+			 "responses": [" These are information gathering tools and they are NMAP,Google Dork , Maltego"],
+			 "context_set": ""
+			},
+		{"tag": "NMAP",
+			 "patterns": ["what is NMAP", "NMAP", "NMAP definition","define NMAP"],
+			 "responses": ["It is an open source tool that is used widely for network discovery and security auditing. Nmap was originally designed to scan large networks,  but it can work equally well for single hosts. Network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime"],
+			 "context_set": ""
+			},
+		{"tag": "GoogleDork",
+			 "patterns": ["what is Google Dork", "Google Dork", "Google Dork definition","define Google Dork"],
+			 "responses": ["It is simply a way to query Google for certain information that can be useful for security investigation. – Search engines index lot of information about anything on internet, including individual companies and their data."],
+			 "context_set": ""
+			},
+		{"tag": "Maltego",
+			 "patterns": ["what is Maltego", "Maltego", "Maltego definition","define Maltego"],
+			 "responses": ["Used to trace footprints of any target you wish to march.Enables to launch intelligence activity tests against specific target.Once we run the Maltego app and transform the target, the results we can get such as, IP, domain etc"],
+			 "context_set": ""
+			},
+		{"tag": "ScanningTools",
+			 "patterns": ["what is Scanning Tools", "Scanning Tools", "Scanning Tools definition","define Scanning Tools"],
+			 "responses": ["These tools are used for network scanning for loop holes ,vulnarability and other weak spots .Some tools for netwok scanning are - Nexpose, Wireshark , Nessus, Cain & Abel"],
+			 "context_set": ""
+			},
+		{"tag": "Nexpose",
+			 "patterns": ["what is Nexpose", "Nexpose", "Nexpose definition","define Nexpose"],
+			 "responses": [" It is open source tool developed by Rapid7.Use to scan vulnerabilities and performs various network checks such as • Watch the exposure of vulnerabilities in time period,acquaint(inform) itself to new hazards. • Categories the risk (High, medium, low) • Detect and scan the new devices and accesses the vulnerabilities once they access the network."],
+			 "context_set": ""
+			},
+		{"tag": "Wireshark",
+			 "patterns": ["what is Wireshark", "Wireshark", "Wireshark definition","define Wireshark"],
+			 "responses": ["It is network protocol analyzer at microscopic level.  Captures the problems online and perform analysis off-line. Can run on various platforms such as windows, Linus, MacOS, Solaris etc.  Most powerful tool for inspecting several protocols."],
+			 "context_set": ""
+			},
+		{"tag": "Nessus",
+			 "patterns": ["what is Nessus", "Nessus", "Nessus definition","define Nessus"],
+			 "responses": ["Capable for scanning vulnerabilities which  permits remote hacking of sensitive information from the system.  Also used for resolving configuration problems.  It forestall(predict) the networks from thepenetration created by hackers.  Support wide range of OS, applications,databases, cloud infrastructure, physical and virtual networks etc."],
+			 "context_set": ""
+			},
+		{"tag": " commandsinForensicImaging",
+			 "patterns": ["what  are commands in Forensic Imaging", " commands in Forensic Imaging", " commands in Forensic Imaging definition","define commands in Forensic Imaging"],
+			 "responses": ["dd (data duplication)\n.The dd command is the most basic open-source tool available to create a forensic image. Because it is almost universally present on any operating system like Unix and is the basis for several other forensic imaging utilities.The dd command stands for data duplicator and used for copying and converting data. dd is theoldest imaging tool still used and is still functional and requires only minimal resources to run,●It is very powerful low level utility of Linux which can do much more like●Backup and restore the entire hard disk or partition.●Backup of MBR (Master Boot Record)●It can copy and convert magnetic tape format, convert between ASCII and EBCDIC formats, swap bytes and can also convert lowercase to uppercase.●It can also be used by Linux kernel makefiles to make boot images.\ndcfldd (Defense Computer Forensics Laboratory by Nick Harbour)•While dd can and has been used to acquire forensically sound images.•dcfldd is an enhanced version of dd developed by the U.S. Department of Defense ComputerForensics Lab.•It has some useful features for forensic investigators such as:•On-the-fly hashing of the transmitted data.•Progress bar of how much data has already been sent.•Wiping of disks with known patterns.•Verification that the image is identical to the original drive, bit-for-bit.•Simultaneous output to more than one file/disk is possible.•The output can be split into multiple files.•Logs and data can be piped into external applications.\n dc3dd\n•It is forensically oriented version created by Jesse Kornblum for the Department of•dc3dd is a patched version of GNU dd with added features for computer forensics.The following features are available in dc3dd that are not found in GNU dd:• On the fly hashing with multiple algorithms (MD5, SHA1, SHA256, and SHA512) with variable sized piecewise hashing• Able to write errors directly to a file• Combined error log. Groups errors together • Pattern wiping. Wipe output files with a single hex digit or a text pattern • Verify mode • Progress reports. See the progress of the operation while its running • Split output. Able to split output files into fixed size chunks"],
+			 "context_set": ""
+			},
+
+		{"tag": " Cain&Abel",
+			 "patterns": ["what is Cain & Abel", " Cain & Abel", " Cain & Abel definition","define  Cain & Abel"],
+			 "responses": ["Cain & Abel is a password recovery tool for Microsoft Operating Systems. It helps in easy recovery of various kinds of passwords by employing any of the following methods − Sniffing the network,  cracking encrypted passwords using Dictionary, Brute-Force and Cryptanalysis attacks, recording VoIP conversations,  decoding scrambled passwords,recovering wireless network keys, revealing password boxes, uncovering cached passwords and analyzing routing protocols. Cain & Abel is a useful tool for security consultants, professional penetration testers and everyone else who plans to use it for ethical reasons."],
+			 "context_set": ""
+			},
+		{"tag": "PreventionfromCybercrime",
+			 "patterns": [ "how to Prevent Cybercrime"],
+			 "responses": ["Identification of exposures through education,Avoid disclosing any personal information to strangers online,Update antivirus to guard against virus attack, Backup the data frequently, Do not share credit/debit card number to any site that is not secure, Avoid sending photographs to unknown site/person, Parents should keep watch when their children are accessing internet, Website owners should keep watch on network traffic and check for any irregularities, Web servers running on public domain must be segregated physically and protected from, internal network, Use security programs, Strict laws need to be passed, Publish guidelines and notifications for computer protection, Steps need to taken at international level to prevent cybercrime, Complete justice must be provided to the victims of cybercrime. "],
+			 "context_set": ""
+			},
+		{"tag": "PreventionfromHackers",
+			 "patterns": ["Prevention from Hackers"],
+			 "responses": ["There exist a special Information security Research Team which finds such holes and notify it to the vendors,To track attacking hackers, defending hackers create detecting system whereas attacking hackers creates bypassing system. This will lead to generate better detecting and tracking system,Ethical Hackers works to prevent the hackers. They are trustworthy having skill, mindset and tools of hacker,Ethical hackers are called as white hat testers (legal hacking) who have same set of tools that hackers have,The intent of ethical hacking is to secure the system by finding vulnerabilities from hacker point of view,To protect your system, you must think like hackers,It is not possible to protect your system from everything,It is not possible to overcome all the vulnerabilities from your computer "],
+			 "context_set": ""
+			},
+		{"tag": "PreventionfromCrackers",
+			 "patterns": [" Prevention from Crackers"],
+			 "responses": ["Dont open any attachments sent from suspicious email addresses,Never send your banking info or credit card numbers via email,Dont use public Wi-Fi for any activities you want to keep private "],
+			 "context_set": ""
+			},
+		{"tag": "PreventionfromPhreakers",
+			 "patterns": ["Prevention from Phreakers",  "how Prevent Phreakers"],
+			 "responses": ["Choose a strong password on your telecoms accounts.• To be extra secure, you should change passwords every ninety days• Block specific numbers you have the opportunity to block calls to premium rate numbers and calls made abroad.• Ask for or add a call reporting system these enable you to set-up daily reports or alerts which will help you keep track of call volumes and spend, alerting you to unusual calling patterns.• Avoid trunk to trunk calls,trunk to trunk calls are usually used to support conferencing features and direct dial to voicemail services.• Ask for Services such as fraud detection which automatically monitor normal call patterns can alert or even suspend telephone lines automatically if hacking is suspected. "],
+			 "context_set": ""
+			},
+		{"tag": "PurposeofHacking",
+         "patterns": ["what is the Purpose of Hacking"],
+         "responses": ["Just for fun,Showoff,Steal important information,Damaging the system,Hampering privacy,Money extortion,System security testing,To break policy compliance "],
+         "context_set": ""
+        },
+		{"tag": "  RulesforDigitalForensics",
+         "patterns": ["what  are Rules for Digital Forensics", " The Rules for Computer/Digital Forensics"],
+         "responses": ["An examination should never be performed on the original media,A copy is made onto forensically sterile media. New media should always be used if available,The copy of the evidence must be an exact, bit-by-bit copy. (Sometimes referred to as a bit-stream copy),The computer and the data on it must be protected during the acquisition of the media to ensure that the data is not modified. (Use a write blocking device when possible),The examination must be conducted in such a way as to prevent any modification of the evidence,The chain of the custody of all evidence must be clearly maintained to provide an audit log of whom might have accessed the evidence and at what time."],
+         "context_set": ""
+        },
+
+		{"tag": " Differenttypeofdigital forensics",
+			 "patterns": ["what  are Different types of digital forensics", " Different types of digital forensics"],
+			 "responses": ["Computer Forensics, Network Forensics,Mobile Devices Forensics,Digital Image Forensics,Digital Video/Audio Forensics,Memory forensics "],
+			 "context_set": ""
+			},
+
+		{"tag": " ComputerForensics",
+			 "patterns": ["what is  Computer Forensics", " Computer Forensics", " Computer Forensics definition","define Computer Forensics"],
+			 "responses": ["the identification, preservation, collection,analysis and reporting on evidence found on computers, laptops and storage media in support of investigations and legal proceedings."],
+			 "context_set": ""
+			},
+
+		{"tag": " MobileDevices Forensics",
+			 "patterns": ["what is Mobile Devices Forensics", "Mobile Devices Forensics", "Mobile Devices Forensics definition","define  Mobile Devices Forensics"],
+			 "responses": ["the recovery of electronic evidence from mobile phones, smartphones, SIM cards, PDAs, GPS devices, tablets and game consoles."],
+			 "context_set": ""
+			},
+		{"tag": " DigitalImage Forensics",
+			 "patterns": ["what is Digital Image Forensics", "Digital Image Forensics", "Digital Image Forensics definition","define Digital Image Forensics"],
+			 "responses": ["the extraction and analysis of digitally acquired photographic images to validate their authenticity by recovering the metadata of the image file to ascertain its history."],
+			 "context_set": ""
+			},
+		{"tag": "DigitalVideo/Audio Forensics",
+			 "patterns": ["what is Digital Video/Audio Forensics", "Digital Video/Audio Forensics", "Digital Video/Audio Forensics definition","define  Digital Video/Audio Forensics"],
+			 "responses": ["the collection, analysis and evaluation of sound and video recordings. The science is the establishment of authenticity as to whether a recording is original and whether it has been tampered with, either maliciously or accidentally"],
+			 "context_set": ""
+			},
+		{"tag": " Memoryforensics",
+			 "patterns": ["what is Memory forensics", "Memory forensics", "Memory forensics definition","define  Memory forensics"],
+			 "responses": ["the recovery of evidence from the RAM of a running computer, also called live acquisition."],
+			 "context_set": ""
+			},
+		{"tag": "EthicsinDigitalForensics",
+			 "patterns": ["what is Ethics in Digital Forensics","Ethics in Digital Forensics", "Ethics in Digital Forensics definition","define Ethics in Digital Forensics"],
+			 "responses": [" Honesty towards investigation ,Careful handling of evidences ,Complience with the law & professional norms• General Ethical norms are The Investigator should contribute to the society and human being• avoid harm to others• be honest and trustworthy• take action not to discriminate• honor property rights, copyrights, patents etc.• give proper credit to intellectual property• respect the privacy of others• maintain confidentiality"],
+			 "context_set": ""
+			},
+		{"tag": "DigitalEvidences",
+			 "patterns": ["what is Digital Evidences", "Digital Evidences", "Digital Evidences definition","define Digital Evidences"],
+			 "responses": ["encompasses any or all digital data to an investigation that is stored on, recieved by, or transmited by electronic device• Evidence can be that data from which investigator can find a crime has been committed or not.• The digital data can provide a link between a crime and its victim or a crime and its perpetrator.• Digital Evidences can be extracted from Volatile Memory: (RAM data),Non-volatile Memory (Disk data)"],
+			 "context_set": ""
+			},
+		{"tag": " Evidences",
+			 "patterns": ["what is Evidences", "Evidences", "Evidences definition","define  Evidences"],
+			 "responses": ["Computer documents, emails,text and instant messages,transactions, images, videos and Internet histories are examples of information that can be gathered from electronic devices and used veryeffectively as evidence."],
+			 "context_set": ""
+			},
+		{"tag": " RulesofDigitalEvidence",
+			 "patterns": ["what are  Rules of Digital Evidence", "Rules of Digital Evidence", "Rules of Digital Evidence definition","define Rules of Digital Evidence"],
+			 "responses": ["The Rules defines whether the evidence is acceptable or not• The five properties that evidence must have in order to be useful:Admissible is evidence must be able to be used in court,Authentic is evidence must be tied to the incident in order to provesomething, Complete is Its not enough to collect evidence that just shows oneperspective of the incident, Reliable is  Your evidence collection and analysis procedures must notcast doubt on the evidences authenticity,Believable is The evidence you present should be clearly understandableand believable by a jury."],
+			 "context_set": ""
+			},
+		{"tag": " Rule 103:",
+			 "patterns": ["what is Rule 103:", "Rule 103:", "Rule 103: definition","define Rule 103:"],
+			 "responses": [" Maintaining the claim of Error,No renewal of objection or proofs,Aim an offer of proof,Plain error taken as notice."],
+			 "context_set": ""
+			},
+		{"tag": " Types ofEvidence",
+			 "patterns": ["what are Types of Evidence", "Types of Evidence", "Types of Evidence definition","define Types of Evidence"],
+			 "responses": ["1. Illustrative Evidence,Electronic Evidence,Documented Evidence,Explainable Evidence,Substantial Evidence,Testimonial Evidence"],
+			 "context_set": ""
+			},
+		{"tag": " IllustrativeEvidence",
+			 "patterns": ["what is Illustrative Evidence", "Illustrative Evidence", "Illustrative Evidence definition","define Illustrative Evidence"],
+			 "responses": ["Also called as Demonstrative Evidence. This is a common form of proof,generally having the form of the representation of an object.Examples are  photographs, videos, sound recordings, xrays, maps, drawings,graphs, charts, simulations, sculptures, and models."],
+			 "context_set": ""
+			},
+		{"tag": " ElectronicEvidence",
+			 "patterns": ["what is Electronic Evidence", "Electronic Evidence", "Electronic Evidence definition","define Electronic Evidence"],
+			 "responses": ["It is any type of proof that can be obtained from an electronic source, such as emails, hard drives, word documents, instant message logs, ATM transactions, cell phone logs, email, text messages, audio & video files.• Digital evidence can be found on any server or device that stores data, includingsome lesser-known sources such as home video game consoles, GPS sport watches and internetenabled devices used in home automation. Digitalevidence is often found through internet searches using open sourceintelligence (OSINT)."],
+			 "context_set": ""
+			},
+		{"tag": " DocumentedEvidence",
+			 "patterns": ["what is Documented Evidence", "Documented Evidence", "Documented Evidence definition","define Documented Evidence"],
+			 "responses": ["documentary evidence consists of any proof that can be presented in writing (contracts, wills, invoices, etc.).•However, term can technically include any number of media upon which such documentation can be recorded and stored (photographs,recordings, films, printed emails, etc."],
+			 "context_set": ""
+			},
+		{"tag": " TestimonialEvidence",
+			 "patterns": ["what is Testimonial Evidence", "Testimonial Evidence", "Testimonial Evidence definition","define Testimonial Evidence"],
+			 "responses": ["This is the spoken evidence given by a witness under oath in court or at a deposition, or written evidence given under oath through an affidavit .• Generally, a witness is called forth, solemnly swears to tell the truth under the penalty of perjury.• This is one of the most common forms of evidence in the legal system."],
+			 "context_set": ""
+			},
+		{"tag": " IncidentResponseProcess",
+			 "patterns": ["what is Incident Response Process", "Incident Response Process", "Incident Response Process definition","define  Incident Response Process"],
+			 "responses": [" Initial Response : Initial response includes those activities that respond to an incident policies, tools,procedures, effective governance and communication plans.Investigation is the phase where team personnel determine the priority, scope, and root cause of the incident.Remediation is the postincident repair of affected systems, communication, and instruction to affected parties, and analysis that confirms the threat has been contained. Tracking of Significant Investigative Information  is List of evidence collected, List of affected systems, List of any files of interest, List of accessed and stolen data, List of significant attacker activity,List of network-based IOCs,List of host-based IOCs,List of compromised accounts,list of ongoing and requested tasks for your teams,Reporting is  All incident response activities will be documented to include artifacts obtained using methods consistent with chain of custody and confidentiality requirements."],
+			 "context_set": ""
+			},
+		{"tag": "IncidentResponseMethodology",
+			 "patterns": ["what is Incident Response Methodology", "Incident Response Methodology", "Incident Response Methodology definition","define Incident Response Methodology"],
+			 "responses": [" Pre-incident preparation,Detection of incidents,Initial response,Formulate response strategy,Investigate the incident,Reporting,Resolution"],
+			 "context_set": ""
+			},
+		{"tag": "Pre-incidentpreparation",
+			 "patterns": ["what is  Pre-incident preparation", " Pre-incident preparation", " Pre-incident preparation definition","define Pre-incident preparation"],
+			 "responses": [" Preparing the organization: Developing all of the corporate-wide strategies you need toemploy to get better position of your organization for incident response is what all is required for preparation.Preparation of an organization includes:  Host-based security actions should be implemented, Network-based security procedures should be implemented, Training for eventual users,Intrusion detection system (IDS) should be active,Formation of strong access control,Performance of timely weakness assessments,Safeguarding backups which are achieved on a regular basis.\n Preparing the computer security incident response team: During the pre-incident preparationphase, the CSIRT is defined. Your organization needs to assemble a team of experts to handle any incidents that occur.Preparing the CSIRT includes \n To investigate computer security incidents, hardware is needed, To investigate computer security incidents, software is needed, To investigate computer security incidents, documentation (forms and reports) are needed, To implement your response strategies, there should be appropriate policies and operating procedures,To perform incident response in such a manner that it promotes successful forensics, investigations,and remediation; train your staff or employees."],
+			 "context_set": ""
+			},
+		{"tag": " DetectionofIncident",
+			 "patterns": ["what isDetection of Incident", "Detection of Incident", "Detection of Incident definition","define Detection of Incident"],
+			 "responses": ["• It cannot be successful in response to incidents if anorganization cannot notice or sense incidents successfully.• Therefore, one of the most important features of incidentresponse is the detection of incidents phase.• It is also one of the most disjointed phases, in which incidentresponse proficiency has only slight control."],
+			 "context_set": ""
+			},
+		{"tag": " InitialResponse",
+			 "patterns": ["what is Initial Response", "Initial Response", "Initial Response definition","define Initial Response"],
+			 "responses": ["Initial response phase involves:Interviewing system administrators of an incident who might have an understanding of the technical details,Interviewing business unit human resource that may provide a context for the incident, which mighthave an understanding into the business events, To identify data-reviewing intrusion detection reports and network-based logs of the incident that would support that an incident has occurred,To determine if any avenues of attack can be ruled out, review the network topology and access controllists of an incident."],
+			 "context_set": ""
+			},
+		{"tag": " FormulateResponseStrategy",
+			 "patterns": ["what is Formulate Response Strategy", "Formulate Response Strategy", "Formulate Response Strategy definition","define Formulate Response Strategy"],
+			 "responses": ["1. Considering the totality of the circumstances,Considering appropriate responses,Taking action,Legal action,Administrative action"],
+			 "context_set": ""
+			},
+		{"tag": " InvestigatetheIncident",
+			 "patterns": [" How to Investigate the Incident", "Investigate the Incident", "Investigate the Incident definition","define  Investigate the Incident"],
+			 "responses": [" Data collection : The accumulation of facts and clues that should be considered during your forensic analysis is data collection. The basis of your conclusions is the data you collect.\n Forensic analysis consists of reviewing all the data collected. It also includes reviewing log files, system configuration files, trust relations, web browser history records,electronic mail messages and their attachments, installed applications, and graphic files."],
+			 "context_set": ""
+			},
+		{"tag": "Reporting",
+			 "patterns": ["what is Reporting", "Reporting", "Reporting definition","define Reporting"],
+			 "responses": ["1. Document immediately,Write concisely and clearly,Use a standard format,Use editors"],
+			 "context_set": ""
+			},
+		{"tag": "Resolution",
+			 "patterns": ["what is Resolution", "Resolution", "Resolution definition","define  Resolution"],
+			 "responses": ["To implement host-based, network-based, and procedural countermeasures to prevent an incident from causing further damage and to return your organization to a secure, healthy operational status is the goal of resolution phase."],
+			 "context_set": ""
+			},
+		{"tag": " PhasesafteDetectionofIncident",
+			 "patterns": ["what isPhases after Detection of Incident", "Phases after Detection of Incident", "Phases after Detection of Incident","define Phases after Detection of Incident"],
+			 "responses": [" Recording the Details after Initial Detection \n a. Initial response checklists : To record the circumstances surrounding a reported incident, use an initial response checklist as the mechanism.b. Second section of the initial response checklist : The second part of the initial response checklist could be usedby the members of the CSIRT to address the technical details surrounding the incident.Incident Declaration : In most of the cases, it will be immediately obvious whether or not the activity is actually acomputer security incident in which suspicious activity is reported. Assembling the Computer Security Incident Response Team : Responding to incidents, many organizations have aCSIRT that is formed in response to a particular situation or incident rather than an established and dedicated centralized team.Performing Traditional Investigation Steps : a. Host-based evidence b. Network-based evidence c. Other evidence Conducting Interviews : The first step is to start asking the questions, when your CSIRT learns of a suspected incident,Formulating a Response Strategy : The most important aspect of incident response is arguably your response strategy,In this phase, you consider what remedial steps to take to recover from the incident."],
+			 "context_set": ""
+			},
+		{"tag": " RoleofCrimeSceneTechnicians",
+			 "patterns": ["what is Role of Crime Scene Technicians", "Role of Crime Scene Technicians", "Role of Crime Scene Technicians definition","define Role of Crime Scene Technicians"],
+			 "responses": ["2.Shutting down the computer system for transport,Marking and recording the evidence,Packaging of the evidence,Transporting evidence,Processing the evidence"],
+			 "context_set": ""
+			},
+		{"tag": "CollectTemporalData:",
+				 "patterns": [ "how  Collect Temporal Data:"],
+				 "responses": ["1. Run a Trusted cmd.exe  2. Recording the system time and date 3.Identify who has logged on to the system and who are the remote access users.4. Record creation, access time, and all the modifications made to the files. 5.Identifying open ports.6. List of applications that are associated with those ports.7. List of all running processes.8. List of current and recent connections.9.Record date and time of target system.10. Commands accessed at the time of initial response."],
+				 "context_set": ""
+				},
+		{"tag": "LiveDataCollected",
+				 "patterns": [ "how  is Live Data Collected"],
+				 "responses": ["• Live Data Collection from Windows System,The first step is to determine whether the system was used by the victim or the attacker,• Creating a Response Toolkit \n 1. Collecting the tools,There are two types of applications available in windows, 1. Based on GUI (Graphical User Interface), 2. Based on CUI (Control User Interface),\n2. Preparing the response toolkit,There are several stages to prepare toolkit for initial response,1. Tag a response toolkit media,2. Check the dependencies,3. Creating checksum for the response toolkit ,\n3. Preparing the response toolkit,There are several stages to prepare toolkit for initial response,• Tag a response toolkit media,• Check the dependencies,• Creating checksum for the responsetoolkit"],
+				 "context_set": ""
+        },
+		{"tag": "Cryptography",
+         "patterns": ["Cryptography ", "what is Cryptography", "Cryptography definition","define Cryptography"],
+         "responses": ["it is actually a method of securing communications through some protocols in order to make the information secure or understood able only by the sender as well as the receiver. Earlier this strategy was based on mathematical theories and computer science. However, with improvement in technology, it is presently based on some vast protocols that are difficult to crack. Thus information security, as well as authenticity can always be ensured and it’s the leading benefit of Cryptography."]
+		},
+        {"tag": "applications",
+         "patterns": ["applications of cryptography ", "what is applications of cryptography ", "applications of cryptography ","define applications of cryptography "],
+         "responses": ["1. Chip based payment cards 2. Computer and other passwords 3. E-commerce 4. Defense communications 5. Digital Currencies 6. Designing protocols 7. Data authenticity"]
+        },
+		{"tag": "decryption",
+         "patterns": ["decryption", "what is decryption", "decryption definition","define decryption"],
+         "responses": ["Cryptography has two important modules and they are encryption and second is decryption. Encryption is basically an approach that converts information into secret codes. It is also known as encoding. It is done to make the information secure. On the other side decryption is a process that is opposite to it i.e. converting the coded information back to its actual form. Only the receiver knows the protocols to decode that information."]
+        },
+		{"tag": "Secret",
+         "patterns": ["Secret Key Cryptography", "what is Secret Key Cryptography", "Secret Key Cryptography definition","define Secret Key Cryptography"],
+         "responses": ["Secret Key Cryptography can be used for both encryption as well as decryption. It is also considered as symmetric approach and contains only one key."]
+        },
+		{"tag": "Public",
+         "patterns": ["Public Key cryptography", "what is Public Key cryptography", "Public Key cryptography definition","define Public Key cryptography"],
+         "responses": ["Public Key cryptography is basically an asymmetric approach. There are two keys in this approach and one is basically the public key and any user can access the information. The other key is private and can only be accessed by administrator. "]
+        },
+		{"tag": "Digital",
+         "patterns": ["Digital Signature Algorithm", "what is Digital Signature Algorithm", "Digital Signature Algorithm definition","define Digital Signature Algorithm"],
+         "responses": ["The digital signature algorithm was implemented for authentication of data in the year 1994. It offers quick signature generation and in addition to this, it ensures better verification of information it is dealing with. It is actually based on computing discrete algorithm and its security actually depends on the size of the key. It can handle key size up to 1024 bits presently."]
+        },
+		{"tag": " Quantum ",
+         "patterns": [" Quantum Cryptography", "what is  Quantum Cryptography", " Quantum Cryptography definition","define  Quantum Cryptography"],
+         "responses": ["When it comes to exchanging secure information over an insecure channel, this approach is considered. It all depends on the nature of photons in which third polarization is focused. It can easily be trusted when it comes to exchanging the Secret keys without facing any issue. Quantum Cryptography is useful when an organization has to send information outside its network without compromising with its security and authenticity. It is having a lot of applications in secret and defense operations."]
+        },
+		{"tag": "ciphertext",
+         "patterns": ["ciphertext", "what is ciphertext", "ciphertext definition","define ciphertext"],
+         "responses": ["When the message is encrypted into a state which is totally incomprehensible and undecipherable, this is known as the ciphertext. So, to illustrate all of this, with the previous example, when the sending party creates the written message of I LOVE YOU, this is the plaintext or the cleartext. Once this message is encrypted into the format of UYO I VEOL and while it is in transit, it becomes known as the ciphertext. Then, once the receiving party gets this ciphertext and then decrypts it into a comprehensible and understandable form of I LOVE YOU, this message then becomes the plaintext or the cleartext again."]
+        },
+		{"tag": "threats ",
+         "patterns": ["threats exist for a cryptographic system", "what is threats exist for a cryptographic system", "threats exist for a cryptographic system definition","define threats exist for a cryptographic system"],
+         "responses": ["Ciphertext-only attack: With this type of attack, only the ciphertext is known to the attacker. But if this particular individual is well-trained in statistics, then he or she can use various statistical techniques to break the ciphertext back into the plaintext Known-plaintext attack: This occurs when the hacker knows some aspect of either the letter pairings; thus, they can consequently crack the ciphertext back into the plaintextChosen-plaintext attack: With this type of attack, the hacker can choose the plaintext and view the encrypted output which is being transmitted across the network medium. From this, they can reverse-engineer it back into its ciphertext form in an attempt to figure out the specific encryption scheme."]
+        },
+		{"tag": "blockcipher",
+         "patterns": ["block cipher", "what is block cipher", "block cipher definition","define block cipher"],
+         "responses": ["With this method of transposition, the plaintext message is encrypted into its scrambled format by being broken up into blocks and encrypted block-by-block. Let us illustrate this with our example used before, but this time, let us assume a block of three characters, mathematically represented as 3 bits, or where k=3.."]
+        },
+		{"tag": " cipherblockchaining",
+         "patterns": [" cipher block chaining", "what is cipher block chaining", " cipher block chaining definition","define  cipher block chaining"],
+         "responses": ["The initialization vectors are part of a larger process known as cipher block chaining, or CBC. Within this methodology, multiple loops of encryption are created in order to further totally scramble the ciphertext.Here is the how the process works:The Initialization Vector is created firstThrough a mathematical process known as XOR (which stands for exclusive OR and is used quite frequently to determine if the bits of two strings of data match or not), the first created Initialization Vector is XOR’d with the first block of ciphertext dataThe first chunk of data which has been XOR’d is further broken down by another layer of encryptionThis process is then continued until all of the blocks of ciphertext have been XOR’d and enveloped with another layer of encryptionThis is how cipher block chaining gets its title. For instance, steps 1-4 create the first loop or chain; the second loop or chain is then next initiated, and so on, until the ciphertext has been fully analyzed and encrypted by this methodology."]
+        },
+		{"tag": "KeyDistributionCenter ",
+         "patterns": ["Key Distribution Center ", "what is Key Distribution Center ", "Key Distribution Center  definition","define Key Distribution Center "],
+         "responses": ["The Key Distribution Center consists of a database of all of the end users at the place of business or corporation and their respective passwords, as well other trusted servers and computers along the network. If an end user wishes to communicate with another end user on a different computer system,   the sending party enters their password into the KDC using a specialized software called “Kerberos.” When the password is received by the KDC, the Kerberos then uses a special mathematical algorithm which adds the receiving party’s information and converts it over to a   cryptographic key. Once this encrypted key has been established, the KDC then sets up and establishes other keys for the encryption of the communication session between the sending and the receiving party. These other keys are also referred to as tickets. These tickets will actually expire at a predetermined point in time in order to prevent unauthorized use, and it would also be rendered useless if it is stolen, hijacked or intercepted by a third party."]
+        },
+		{"tag": "hashingfunction",
+         "patterns": ["hashing function", "what is hashing function", "hashing function definition","define hashing function"],
+         "responses": ["The hashing function is a one-way mathematical function. This means that it can be used to encode data, but it cannot decode data. Its primary purpose is not to encrypt the ciphertext; rather, its primary purpose is to prove that the message in the ciphertext has not changed in any way, shape or form. This is also referred to as “message integrity.” If the mathematical function has changed in any way, the message has then changed."]
+        },
+		{"tag": "PublicKeyInfrastructure",
+         "patterns": ["Public Key Infrastructure", "what is Public Key Infrastructure", "Public Key Infrastructure definition","define Public Key Infrastructure"],
+         "responses": ["Since the public key has become so important in the encryption and the decryption of the ciphertext messages between the sending and receiving parties and given the nature of its public role in the overall communication process, great pains and extensive research have been taken to create an infrastructure which would make the process of creating and sending keys much more secure and robust. In fact, this infrastructure is a very sophisticated form of asymmetric cryptography, and it is known as the “Public Key Infrastructure” or “PKI” for short. The basic premise of PKI is to help create, organize, store, distribute and maintain the public keys."]
+        },
+		{"tag": "securityvulnerabilities",
+         "patterns": ["security vulnerabilities of hashing functions", "what is security vulnerabilities of hashing functions", "security vulnerabilities of hashing functions definition","define security vulnerabilities of hashing functions"],
+         "responses": ["One major security vulnerability of using hashes is that they can be altered while it is en route. In other words, a cyber-attacker can intercept the ciphertext and its associated hash, alter both and create a brand-new ciphertext and hash. As a result, the receiving party is fooled into believing that this new, altered ciphertext and new, altered hash are the original sent by the sending party while the cyber-attacker keeps the actual ciphertext and hash which was generated the first time around. To fix this, the ciphertext is combined with a “secret key” at the point of origination first, then the hash is created. As a result, this hash will contain specific information and data about the secret itself. As a result, the receiving party can even be further convinced that the ciphertext they have received is the original one sent by the sending party. This is so because even if the ciphertext, the hash and the associated secret key were to be intercepted, there is very little that a hacker can do to alter the ciphertext and its associated hash. This is because they have to have the information and data about the secret key, which is of course something they will never gain access to."]
+        },
+		{"tag": "Rsa",
+         "patterns": ["Rsa", "what is Rsa", "Rsa definition","define Rsa"],
+         "responses": ["RSA is a publickey cryptosystem for both encryption and authentication; it was invented in 1977 by Ron Rivest, Adi Shamir, and Leonard Adleman [RSA78]. It works as follows: take two large primes, p and q, and find their product n = pq ; n is called the modulus. Choose a number, e, less than n and relatively prime to (p1)( q1), which means that e and (p1)( q1) have no common factors except 1. Find another number d such that (ed 1) is divisible by (p1)( q1). The values e and d are called the public and private exponents, respectively. The public key is the pair (n,e); the private key is (n,d). The factors p and q maybe kept with the private key, or destroyed.."]
+        },
+		{"tag": " Authentication  ",
+         "patterns": ["Message Authentication Codes ", "what is Message Authentication Codes ", "Message Authentication Codes  definition","define Message Authentication Codes "],
+         "responses": ["A message authentication code (MAC) is an authentication tag (also called a checksum) derived by application of an authentication scheme, together with a secret key, to a message. MACs are computed and verified with the same key so they can only be verified by the intended receiver, unlike digital signatures. MACs can be categorized as unconditionally secure, hash functionbased, stream cipherbased, or block cipherbased.Simmons and Stinson proposed an unconditionally secure MAC that is based on encryption with a onetime pad. The ciphertext of the message authenticates itself, as nobody else has access to the onetime pad. However, there has to be some redundancy in the message. An unconditionally secure MAC can also be obtained by use of a onetime secret key."]
+        },
+		{"tag": "DnaComputing",
+         "patterns": ["Dna Computing", "what is Dna Computing", "Dna Computing definition","define Dna Computing"],
+         "responses": ["DNA computing, also known as molecular computing, is a new approach to massively parallel computation based on groundbreaking work by Adleman. He used DNA to solve a sevennode Hamiltonian path problem, a special case of an NPcomplete problem that attempts to visit every node in a graph exactly once. (This special case is trivial to solve with a conventional computer, or even by hand, but illustrates the potential of DNA computing.) A DNA computer is basically a collection of specially selected DNA strands whose combinations will result in the solution to some problem. Technology is currently available both to select the initial strands and to filter the final solution. The promise of DNA computing is massive parallelism: with a given setup and enough DNA, one can potentially solve huge problems by parallel search. This can be much faster than a conventional computer, for which massive parallelism would require large amounts of hardware, not simply more DNA."]
+        },
+		{"tag": " Safer",
+         "patterns": [" Safer", "what is Safer", " Safer definition","define Safer"],
+         "responses": ["SAFER (Secure And Fast Encryption Routine) is a nonproprietary block cipher developed by Massey in 1993 for Cylink Corporation. It is a byteoriented algorithm with a 64bit block size and, in one version, a 64bit key size. It has a variable number of rounds (maximum of 10), but a minimum of six rounds is recommended. Unlike most recent block ciphers, SAFER has slightly different encryption and decryption procedures. Only bytebased operations are employed to ensure its utility in smart cardbased applications that have limited processing power. When first announced, SAFER was intended to be implemented with a key of length 64 bits and it was accordingly named SAFER K64. Another version of SAFER was designed that could handle 128bit keys and was named SAFER K128."]
+        },
+		{"tag": " BlindSignature ",
+         "patterns": [" Blind Signature Scheme", "what is  Blind Signature Scheme", " Blind Signature Scheme definition","define  Blind Signature Scheme"],
+         "responses": ["Blind signature schemes, first introduced by Chaum, allow a person to get a message signed by another party without revealing any information about the message to the other party. Chaum demonstrated the implementation of this concept using RSA signatures as follows: Suppose Alice has a message m that she wishes to have signed by Bob, and she does not want Bob to learn anything about m. Let (n,e) be Bob's public key and (n,d) be his private key. Alice generates a random value r such that gcd(r, n) = 1 and sends to Bob. The value m' is 'blinded' by the random value r, and hence Bob can derive no useful information from it. Bob returns the signed value to Alice. Since s'=rmd mod n, Alice can obtain the true signature s of m by computing. Now Alice's message has a signature she could not have obtained on her own. This signature scheme is secure provided that factoring and root extraction remain difficult. However, regardless of the status of these problems the signature scheme is unconditionally 'blind' since r is random. The random r does not allow the signer to learn about the message even if the signer can solve the underlying hard problems."]
+        },
+		{"tag": "DesignatedConfirmerSignature",
+         "patterns": ["Designated Confirmer Signature", "what is Designated Confirmer Signature", "Designated Confirmer Signature definition","define Designated Confirmer Signature"],
+         "responses": ["A designated confirmer signature strikes a balance between selfauthenticating digital signatures and zeroknowledge proofs. While the former allows anybody to verify a signature, the latter can only convince one recipient at a time of the authenticity of a given document, and only through interaction with the signer. A designated confirmer signature allows certain designated parties to confirm the authenticity of a document without the need for the signer's input. At the same time, without the aid of either the signer or the designated parties, it is not possible to verify the authenticity of a given document. Chaum developed implementations of designated confirmer signatures with one or more confirmers using RSA digital signatures."]
+        },
+		{"tag": "GroupSignature",
+         "patterns": ["Group Signature", "what is Group Signature", "Group Signature definition","define Group Signature"],
+         "responses": ["A group signature, introduced by Chaum and van Heijst, allows any member of a group to digitally sign a document in a manner such that a verifier can confirm that it came from the group, but does not know which individual in the group signed the document. The protocol allows for the identity of the signer to be discovered, in case of disputes, by a designated group authority who has some auxiliary information. Unfortunately, each time a member of the group signs a document, a new key pair has to be generated for the signer. The generation of new key pairs causes the length of both the group members' secret keys and the designated authority's auxiliary information to grow. This tends to cause the scheme to become unwieldy when used by a group to sign numerous messages or when used for an extended period of time. Some improvements have been made in the efficiency of this scheme."]
+        },
+		{"tag": "Blowfish",
+         "patterns": ["Blowfish", "what is Blowfish", "Blowfish definition","define Blowfish"],
+         "responses": ["Blowfish is a 64bit block cipher developed by Schneier. It is a Feistel cipher and each round consists of a keydependent permutation and a keyanddatadependent substitution. All operations are based on exclusiveors and additions on 32bit words. The key has a variable length (with a maximum length of 448 bits) and is used to generate several subkey arrays. This cipher was designed specifically for 32bit machines and is significantly faster than DES. There was an open competition for the cryptanalysis of Blowfish supported by Dr. Dobb's Journal with a $1000 prize.  This contest ended in April 1995 and among the results were the discoveries of existence of certain weak keys , an attack against a threeround version of Blowfish, and a differential attack against certain variants of Blowfish. However, Blowfish can still be considered secure, and Schneier has invited cryptanalysts to continue investigating his cipher."]
+        },
+		{"tag": "CompressionFunction",
+         "patterns": ["Compression Function", "what is Compression Function", "Compression Function definition","define Compression Function"],
+         "responses": ["Damg'rd and Merkle greatly influenced cryptographic hash function design by defining a hash function in terms of what is called a compression function. A compression function takes a fixed length input and returns a shorter, fixedlength output. Then a hash function can be defined by means of repeated applications of the compression function until the entire message has been processed. In this process, a message of arbitrary length is broken into blocks of a certain length which depends on the compression function, and 'padded' (for security reasons) so that the size of the message is a multiple of the block size. The blocks are then processed sequentially, taking as input the result of the hash so far and the current message block, with the final output being the hash value for the message."]
+        },
+		{"tag": "Interactive ",
+         "patterns": ["Interactive Proofs ", "what is Interactive Proofs ", "Interactive Proofs  definition","define Interactive Proofs "],
+         "responses": ["Informally, an interactive proof is a protocol between two parties in which one party, called the prover, tries to prove a certain fact to the othe r party, called the verifier. An interactive proof usually takes the form of a challengeresponse protocol, in which the prover and the verifier exchange messages and the verifier outputs either 'accept' or 'reject' at the end of the protocol. Besides their theoretical interests, interactive proofs have found applications in cryptography and computer security such as identification and authentication. In these situations, the fact to be proved is usually related to the prover's identity, e.g., the prover's private key. The following properties of interactive proofs are quite useful, especially in cryptographic applications: Completeness: The verifier always accepts the proof if the prover knows the fact and both the prover and the verifier follow the protocol. Soundness: The verifier always rejects the proof if the prover does not know the fact, as long as the verifier follows the protocol."]
+        },
+		{"tag": "Zeroknowledge",
+         "patterns": ["Zero-knowledge Proofs", "what is Zero-knowledge Proofs", "Zero-knowledge Proofs definition","define Zero-knowledge Proofs"],
+         "responses": ["Zero knowledge: The verifier learns nothing about the fact being proved (except that it is correct) from the prover that he could not already learn without the prover. In a zeroknowledge proof, the verifier cannot even later prove the fact to anyone else. A typical round in a zeroknowledge proof consists of a 'commitment' message from the prover, followed by a challenge from the verifier, and then a response to the challenge from the prover. The protocol may be repeated for many rounds. Based on the prover's responses in all the rounds, the verifier decides whether to accept or reject the proof."]
+        }
+   ]
+}

@@ -1,0 +1,92 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "Thats helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "Budget",
+         "patterns": ["trip under 7000", "Trip for 3 people", "Trip for maharashtra","which is best place under budget 7000","How much money need for a trip to maharashtra"],
+         "responses": ["maharashtra is a place for everyone, if you want to enjoy late night parties, get “bhand” , and don't have to worry about getting home early or you want to sit in peace, gazing the stars, making plans for your future while staring at the lovely horizon along with those amazingly “calm” waves brushing your feet alongwith, all you can find in maharashtra which is under 7k for 2-3 people.","There are many places in maharashtra you should visit but it’s not possible to cover all of them in 3 days under 7000. Still if you follow a plan, you can cover most of the places Plan-1 - Reach hotel till 10 am. Do Lunch and rest till 1pm. Go to Baga Beach/Calangute Beach. Stay there till mid night.We stayed in albenjoh guest house walkable distance to Calangute Beach just 300m Plan2: Dhudh Sagar waterfall’s and Old maharashtra Church’s8AM Dhudh sagar waterfall's4 PM old maharashtra Church's5PM Panaji city and shopping7PM return to Room Night 9 PM - Baga beach and Tito's street"]
+		},
+		{"tag": "beach",
+         "patterns": ["maharashtra beaches", "names of maharashtra beaches", "which are best beaches in maharashtra","list of maharashtra beach"],
+         "responses": ["1.chapora beach 2.vogator beach 3.Anjuna beach 4.calangute beach 5.Candolim Beach 6.Arambol Beach 7.Morjim Beach 8.Miramar Beach 9.Ashwem Beach 10.Dona Paula Beach"]
+		},
+		{"tag": "fort",
+         "patterns": ["trip on fort in maharashtra", "maharashtra's forts", "forts in maharashtra","best forts in maharashtra"],
+         "responses": ["1.raigad fort, 2.Pratapgad fort, 3.Sinhgad fort, 4.Murud Janjira fort,5.Panhala fort,6.Shivneri fort,7.Sindhudurg fort,8.Torana fort, 9.Daulatabad fort, 10.Lohgad fort "]
+		},
+		{"tag": "cold",
+         "patterns": ["coldest places in india", "which are coldest places for trip", "cold places","suggest me cold places for tour"],
+         "responses": ["1.Lonavala, 2.Matheran, 3.Igatpuri, 4.Mahabaleshwar ,5.Khandala,6.Panchgani,7.Sawantwadi,8.Malshej Ghat, 9.Amboli, 10.Bhandardara"]
+		},
+		{"tag": "HeritagePlaces",
+         "patterns": ["Heritage Places in india", "which are Heritage Places for trip", "Heritage Places","suggest me Heritage Places for tour in india"],
+         "responses": ["1.Taj Mahal, Uttar Pradesh, 2.Hampi Vijayanagara Empire, Karnataka, 3.Mahabodhi Temple, Bihar, 4.Khajuraho Group of Monuments, Madhya Pradesh,5.Lothal Site, Gujarat,6.Ajanta Ellora Caves, Maharashtra,7.Mahabalipuram Shore, Tamil Nadu,8.Konarak Sun Temple, Orissa, 9.Golden Temple Amrutsar, 10.Jaisalmer Hill Fort, Rajasthan "]
+		},
+        {"tag": "nlp",
+         "patterns": ["what is Nlp", "Nlp", "Nlp", "Definition of nlp", "Define Nlp"],
+         "responses": ["Natural Language Processing or NLP is an automated way to understand or analyze the natural languages and extract required information from such data by applying machine learning Algorithms."],
+         "context_set": ""
+        },
+        {"tag": "components",
+         "patterns": ["List Some Components Of Nlp", "Components Of Nlp"],
+         "responses": ["Entity extraction:It involves segmenting a sentence to identify and extract entities, such as a person (real or fictional), organization, geographies, events, etc.\n Syntactic analysis:It refers to the proper ordering of words.\n Pragmatic analysis:Pragmatic Analysis is part of the process of extracting information from text."],
+         "context_set": ""
+        },
+        {"tag": "areasofnlp",
+         "patterns": ["List Some Areas Of Nlp", "areas of nlp", "what are the areas of nlp"],
+         "responses": ["Natural Language Processing can be used for Semantic Analysis, Automatic summarization, Text classification, Question Answering. Some real-life example of NLP is IOS Siri, the Google assistant, Amazon echo."],
+         "context_set": ""
+        },
+        {"tag": "nlpterminology",
+         "patterns": ["Define The Nlp Terminology", "Nlp Terminology"],
+         "responses": ["NLP Terminology is based on the following factors: Weights and Vectors:TF-IDF, length(TF-IDF, doc), Word Vectors, Google Word Vectors, Text Structure:Part-Of-Speech Tagging, Head of sentence, Named entities, Sentiment Analysis:Sentiment Dictionary, Sentiment Entities, Sentiment Features, Text Classification:Supervised Learning, Train Set, Dev(=Validation) Set, Test Set, Text Features, LDA, Machine Reading:Entity Extraction, Entity Linking,dbpedia, FRED (lib) / Pikes."],
+         "context_set": ""
+        },
+        {"tag": "pragmaticanalysis",
+         "patterns": ["What Is Pragmatic Analysis In Nlp", "Pragmatic Analysis In Nlp"],
+         "responses": ["It deals with outside word knowledge, which means knowledge that is external to the documents and/or queries. Pragmatics analysis that focuses on what was described as interpreted by what it actually meant, deriving the various aspects of language that require real-world knowledge."],
+         "context_set": ""
+        },
+        {"tag": "dependency",
+         "patterns": ["Explain Dependency Parsing In Nlp", "Dependency Parsing In Nlp"],
+         "responses": ["Dependency Parsing is also known as Syntactic Parsing. It is the task of recognizing a sentence and assigning a syntactic structure to it. The most widely used syntactic structure is the parse tree which can be generated using some parsing algorithms. These parse trees are useful in various applications like grammar checking or more importantly it plays a critical role in the semantic analysis stage."],
+         "context_set": ""
+        },
+        {"tag": "textmining",
+         "patterns": ["what is Text Mining", "Text Mining", "Text Mining definition","define Text Mining"],
+         "responses": ["Text mining (also referred to as text analytics) is an artificial intelligence (AI) technology that uses natural language processing (NLP) to transform the free (unstructured) text in documents and databases into normalized, structured data suitable for analysis or to drive machine learning (ML) algorithms."],
+         "context_set": ""
+        },
+        {"tag": "ArtificialIntelligence",
+         "patterns": ["what is Artificial Intelligence", "Artificial Intelligence", "Artificial Intelligence definition","define Artificial Intelligence"],
+         "responses": ["Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving."],
+         "context_set": ""
+        },
+        {"tag": "applications",
+         "patterns": ["what are the applications of nlp", "applications of nlp"],
+         "responses": ["1.Sentimental Analysis 2.Chatbot 3.Speech Recognition 4.Machine Translation 5.Spell Checking 6.Keyword Searching 7.Information extraction 8.Advertisement Matching"],
+         "context_set": ""
+        },
+        {"tag": "sentimentalanalysis",
+         "patterns": ["What is Sentimental Analysis", "Sentimental Analysis", "Sentimental Analysis definition", "Define Sentimental Analysis"],
+         "responses": ["Sentiment Analysis (also known as opinion mining or emotion AI) is a sub-field of NLP that tries to identify and extract opinions within a given text across blogs, reviews, social media, forums, news etc."],
+         "context_set": ""
+        },
+        {"tag": "Chatbot",
+         "patterns": ["what is Chatbot", "Chatbot", "Chatbot definition", "define Chatbot"],
+         "responses": ["A chatbot is an artificial intelligence (AI) software that can simulate a conversation (or a chat) with a user in natural language through messaging applications, websites, mobile apps or through the telephone."],
+         "context_set": ""
+        }
+
+   ]
+}
